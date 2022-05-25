@@ -91,7 +91,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -231,23 +231,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e44c0000
-      m_LastClickedID: 19684
-      m_ExpandedIDs: 88f0ffff36fbffff
+      m_SelectedIDs: 7e6bfdff
+      m_LastClickedID: -169090
+      m_ExpandedIDs: 6a9ffdff2834ffff2c34ffffa645ffff7071ffff7471ffff8471ffffd689ffffda89ffffdc91ffffc894ffff36fbffff444b0000564b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Cube
+        m_OriginalName: Cube
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -157212
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -357,15 +357,15 @@ MonoBehaviour:
       index: 1
       layout: 1
     - dockPosition: 0
-      containerId: overlay-container--left
+      containerId: overlay-toolbar__top
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 26}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
-      index: 0
+      index: 2
       layout: 2
     - dockPosition: 0
       containerId: overlay-container--left
@@ -542,9 +542,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -6.8366966, y: 18.15577, z: -5.791827}
+    m_Target: {x: -10.089519, y: -3.8522925, z: -6.574625}
     speed: 2
-    m_Value: {x: -6.8366966, y: 18.15577, z: -5.791827}
+    m_Value: {x: -10.089519, y: -3.8522925, z: -6.574625}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -590,19 +590,19 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.2415251, y: 0.59631217, z: -0.194512, w: 0.74043804}
+    m_Target: {x: 0.29057005, y: 0.07740068, z: -0.023580674, w: 0.95347655}
     speed: 2
-    m_Value: {x: 0.24152438, y: 0.5963104, z: -0.19451141, w: 0.74043584}
+    m_Value: {x: 0.2905562, y: 0.07739699, z: -0.023579549, w: 0.95343107}
   m_Size:
-    m_Target: 2.6754346
+    m_Target: 12.69399
     speed: 2
-    m_Value: 2.6754346
+    m_Value: 12.69399
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
+    m_Speed: 1.0005
     m_SpeedNormalized: 0.5
     m_SpeedMin: 0.001
     m_SpeedMax: 2
@@ -689,22 +689,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Materials
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Materials
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Projects\Unity\PacketShooter
+  m_LastProjectPath: D:\Projects\Unity\PacketShooter GitHub\PacketShooter
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 104b0000
-    m_LastClickedID: 19216
-    m_ExpandedIDs: 00000000104b000000ca9a3bffffff7f
+    m_SelectedIDs: 20550000
+    m_LastClickedID: 21792
+    m_ExpandedIDs: 00000000aa4b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -732,7 +732,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000104b000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000aa4b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -757,9 +757,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: e44c0000
-    m_LastClickedInstanceID: 19684
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 7e6bfdff
+    m_LastClickedInstanceID: -169090
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -776,7 +776,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 9}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0

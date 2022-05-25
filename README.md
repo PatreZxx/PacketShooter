@@ -1,2 +1,2 @@
-# PacketShooter
-PI1 project
+# PacketShooter project
+Quarantine packets that contain malware by shooting quarantine boxes and protecting as many company employees from viruses as possible. However, pay attention to the right packages, they are important for the company and it is unacceptable for the company to lose them!
