@@ -131,4 +131,5 @@ MonoBehaviour:
   Terrain1: {fileID: 0}
   Bullet1: {fileID: 0}
   Score: {fileID: 0}
+  countdown: {fileID: 0}
   life: 3
