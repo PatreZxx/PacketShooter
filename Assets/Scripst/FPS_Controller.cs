@@ -22,6 +22,7 @@ public class FPS_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Movement
         move.z = Input.GetAxis("Horizontal");
         move.x = Input.GetAxis("Vertical");
 
@@ -34,16 +35,20 @@ public class FPS_Controller : MonoBehaviour
             move.y = 0;
         }
 
-        if (Input.GetAxis("Jump")==1f && chc.isGrounded == true)
+
+        //Jump-DISABLED
+        /*if (Input.GetAxis("Jump")==1f && chc.isGrounded == true)
         {
             move.y = 2f;
-        }
-        /*
-        if (Input.GetAxis("Sprint") == 1f && chc.isGrounded == true)
-        {
-            
         }*/
 
+        //Sprinting in game
+        if (Input.GetAxis("Sprint") == 1f && chc.isGrounded == true)
+        {
+            move.x = 3f;
+        }
+
+        //Looking around
         float x_rotation = Input.GetAxis("Mouse X") * Time.deltaTime * ROTATION_SPEED;
         transform.eulerAngles += new Vector3(0, x_rotation, 0);
 
