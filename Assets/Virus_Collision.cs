@@ -4,6 +4,7 @@ using UnityEngine;
 using Random = UnityEngine.Random;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class Virus_Collision : MonoBehaviour
 {
@@ -201,6 +202,14 @@ public class Virus_Collision : MonoBehaviour
             {
                 Destroy(GameObject.FindWithTag(viruses[i]));
             }
+            //yield return new WaitForSeconds(5f);
+            IEnumerator waiter_not_that_waiter_just_waiter()
+            {
+                //Debug.Log("Vo funkcii a idem �aka� 1sec");
+                yield return new WaitForSeconds(5f);
+                //Debug.Log("Po�kal som 1 sec");
+            }
+            SceneManager.LoadScene("Menu");
         }
         //countdown.text = timeRemaining.ToString();
     }
