@@ -62,9 +62,9 @@ public class Virus_Collision : MonoBehaviour
             //colors color = new colors();
             for(int i = 0; i < 10; i++)
             {
-            GameObject.FindWithTag(viruses[i]).GetComponent<Rigidbody>().drag = 6;
+            GameObject.FindWithTag(viruses[i]).GetComponent<Rigidbody>().drag = 4;
             int random_num = Random.Range(0, 11);
-                if (random_num < 9)
+                if (random_num <= 2)
                 {
                     //gameObject.GetComponent<Renderer>().material.color = "green";
                     //color.color_r = 0;
@@ -74,7 +74,7 @@ public class Virus_Collision : MonoBehaviour
                     //cubeRenderer.material.SetColor("_Color", Color.green);
                     GameObject.FindWithTag(viruses[i]).GetComponent<Renderer>().material.color = new Color(0, 255, 0);
                 }
-                if (random_num > 8)
+                else if (random_num > 2)
                 {
                     //gameObject.GetComponent<Renderer>().material.color = "red";
                     //color.color_r = 255;
@@ -118,7 +118,7 @@ public class Virus_Collision : MonoBehaviour
     void Update()
     {
         countdown.text = timeRemaining.ToString();
-        if (Input.GetKeyDown("escape"))
+        /*if (Input.GetKeyDown("escape"))
         {
             countdown.GetComponent<Text>().color = Color.red;
             countdown.text = "Game Over!";
@@ -127,7 +127,7 @@ public class Virus_Collision : MonoBehaviour
             {
                 Destroy(GameObject.FindWithTag(viruses[i]));
             }
-        }
+        }*/
     }
 
 
@@ -364,6 +364,9 @@ public class Virus_Collision : MonoBehaviour
                 // }
                 //}
                 //
+
+                
+
                 collision.gameObject.GetComponent<Renderer>().material.color = this.gameObject.GetComponent<Renderer>().material.color;
                 if ((collision.gameObject.GetComponent<Renderer>().material.color).ToString() == "RGBA(0.000, 255.000, 0.000, 1.000)")
                 {
@@ -376,11 +379,11 @@ public class Virus_Collision : MonoBehaviour
                     //subtract();
                 }
                 int random_num = Random.Range(0, 11);
-                if (random_num < 9)
+                if (random_num <= 2)
                 {
                     this.gameObject.GetComponent<Renderer>().material.color = new Color(0, 255, 0);
                 }
-                if (random_num > 8)
+                if (random_num > 2)
                 {
                     this.gameObject.GetComponent<Renderer>().material.color = new Color(255, 0, 0);
                 }
