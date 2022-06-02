@@ -11,7 +11,7 @@ public class FPS_Controller : MonoBehaviour
     [SerializeField]
     CharacterController chc;
     const float MOVEMENT_SPEED = 15f;
-    const float ROTATION_SPEED = 400f;
+    const float ROTATION_SPEED = 100f;
 
     // Start is called before the first frame update
     void Start()

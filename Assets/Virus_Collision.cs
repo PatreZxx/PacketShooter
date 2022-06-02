@@ -209,7 +209,10 @@ public class Virus_Collision : MonoBehaviour
                 yield return new WaitForSeconds(5f);
                 //Debug.Log("Po�kal som 1 sec");
             }
-            SceneManager.LoadScene("Menu");
+            //GameObject.FindWithTag(Pause).enabled = true;
+            //SceneManager.LoadScene("Menu");
+            //GameObject ResumeButton in GameObject.FindGameObjectsWithTag(Pause);
+            //ResumeButton.GetComponent<Canvas>().enabled = true;
         }
         //countdown.text = timeRemaining.ToString();
     }
